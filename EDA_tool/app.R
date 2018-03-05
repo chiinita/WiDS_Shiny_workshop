@@ -9,7 +9,7 @@ verygood_diamonds <- diamonds[diamonds$cut == "Very Good", ]
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  titlePanel("WiDS Shiny workshop - EDA tool demo"),
+  titlePanel("WiDS Shiny workshop - EDA tool - full demo"),
   sidebarLayout(
     sidebarPanel(
       selectInput(
